@@ -29,7 +29,7 @@ const Body = () => {
     <Navbar/>
     <section className=" h-screen flex flex-col gap-3 justify-center items-center w-full">
     
-    <Image src="/searching.gif" width={400} height={400}/>
+    <Image src="/searching.gif" alt="mainlogo" width={400} height={400}/>
     <p>A Build by <Link href="/" className="text-blue-400 hover:underline">Sai Krishns Varma</Link></p>
     <form onClick={(e)=>{
         handleSubmit(e)
