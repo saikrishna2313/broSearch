@@ -2,6 +2,9 @@
 const nextConfig = {
  
     images: {
+     experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
       
         remotePatterns: [
           {
