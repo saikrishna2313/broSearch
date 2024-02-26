@@ -30,7 +30,8 @@ const Body = () => {
     <section className=" h-screen flex flex-col gap-3 justify-center items-center w-full">
     
     <Image src="/searching.gif" alt="mainlogo" width={400} height={400}/>
-    <p>A Build by <Link href="/" className="text-blue-400 hover:underline">Sai Krishns Varma</Link></p>
+    <p>A Build by <Link href="/" className="text-blue-400 hover:underline">Sai Krishna Varma</Link></p>
+        <p>We are working on more features and real-time secured options, Thank You🙏</p>
     <form onClick={(e)=>{
         handleSubmit(e)
     }}  className="w-[60%] max-sm:w-[80%] text-center relative flex flex-col items-center justify-center">
