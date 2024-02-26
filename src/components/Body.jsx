@@ -31,7 +31,7 @@ const Body = () => {
     
     <Image src="/searching.gif" alt="mainlogo" width={400} height={400}/>
     <p>A Build by <Link href="/" className="text-blue-400 hover:underline">Sai Krishna Varma</Link></p>
-        <p className="text-center text-sm text-slate-800">Working on more advanced features and real-time secured options, Thank You🙏</p>
+        <p className="text-center text-sm text-slate-800">Still in development phase. Working on more advanced features and real-time secured options, Thank You🙏</p>
     <form onClick={(e)=>{
         handleSubmit(e)
     }}  className="w-[60%] max-sm:w-[80%] text-center relative flex flex-col items-center justify-center">
