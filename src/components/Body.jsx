@@ -24,10 +24,10 @@ const Body = () => {
       };
   return (
     <>
-    <section className="h-screen">
+    <section className="h-screen sm:h-auto">
     <div class="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
     <Navbar/>
-    <section className=" h-screen flex flex-col gap-3 justify-center items-center w-full">
+    <section className=" h-screen sm:h-auto flex flex-col gap-3 justify-center items-center w-full">
     
     <Image src="/searching.gif" alt="mainlogo" width={400} height={400}/>
     <p>A Build by <Link href="/" className="text-blue-400 hover:underline">Sai Krishna Varma</Link></p>
