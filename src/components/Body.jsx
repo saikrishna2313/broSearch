@@ -45,7 +45,7 @@ const Body = () => {
     <button onClick={()=>randomSearch()} className="px-4 mt-5 py-2 rounded text-sm captialize text-slate-200 bg-slate-900 uppercase font-semibold">Randome Search</button>
     
     </section>
-<section className="px-20 sm:mt-5 max-sm:px-5 text-center text-slate-600">
+<section className="px-20 sm:my-5 max-sm:px-5 text-center text-slate-600">
 <p className="max-sm:text-[13px]">Welcome to broSearch – your go-to search engine for finding images and content tailored to your queries! 🚀. With our user-friendly interface and advanced search algorithms, discovering the content you need has never been easier. Simply enter your query, hit search🚀</p>
 </section>
     </section>
